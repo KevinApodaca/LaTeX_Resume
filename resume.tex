@@ -1,0 +1,110 @@
+% KevinResume.tex
+%
+% (c) 2002 Matthew Boedicker <mboedick@mboedick.org> (original author) http://mboedick.org
+% (c) 2003-2007 David J. Grant <davidgrant-at-gmail.com> http://www.davidgrant.ca
+% (c) 2007-2014 Todd C. Miller <Todd.Miller@sudo.ws> http://www.sudo.ws/todd
+%
+% This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
+
+\documentclass[letterpaper,11pt]{article}
+
+%-----------------------------------------------------------
+\usepackage[empty]{fullpage}
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.80}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Adjust margins to 0.5in on all sides
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{7.0in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+%-----------------------------------------------------------
+
+
+\begin{document}
+
+\begin{tabular*}{7.5in}{l@{\extracolsep{\fill}}r}
+\textbf{\large Kevin Apodaca}  & (915) 701-6665 (mobile)\\
+kevin.apodaca7@gmail.com &  gitub.com/KevinApodaca \\
+https://kevinapodaca.github.io\\
+\end{tabular*}
+\\
+
+\vspace{0.1in}
+%-------------------------------- EDUCATION -------------------------
+\resheading{Education}
+\begin{itemize}
+\item
+	\ressubheading{The University of Texas at El Paso}{El Paso, TX}{Bachelor of Science in Computer Science, Minor in Mathematics}{Expected: May 2020}
+	\begin{itemize}
+		\resitem{Completed Data Structures}
+	\end{itemize}
+
+\end{itemize}
+%-------------------------------- EXPERIENCE -------------------------
+\resheading{Work Experience}
+\begin{itemize}
+\item
+	\ressubheading{Academic Technologies Learning Environments (UTEP)}{Lindon, UT}{Undergraduate Assistant and Educator }{November 2018 - Present}
+	\begin{itemize}
+		\resitem{Promoted STEM careers to underprivileged youth in the El Paso region by hosting workshops to enhance programming skills}
+		\resitem{Maintained internal infrastructure and maintenance for over 100+ computers}
+	\end{itemize}
+
+\item
+	\ressubheading{Entering Student Program (UTEP)}{Columbia, MD}{Peer Leader}{August 2018 - November 2018}
+	\begin{itemize}
+		\resitem{Assisted a class of 30 transfer students with their transition into the University of Texas at El Paso by providing them with valuable information regarding the resources available at the University and answering their questions.}
+		\resitem{Responsibilities include grading assignments, teaching C.S topics, and creating programming activities to demonstrate knowledge of lessons taught.}
+	\end{itemize}
+
+\item
+	\ressubheading{Constraint Reading and Research Group}{Columbia, MD}{Research Assistant}{January 2018 - Present}
+	\begin{itemize}
+		\resitem{Collaborate during weekly meetings and conduct research in the topics of decision-making under uncertainty, machine learning algorithm optimization, constraint solving, and interval arithmetic.}
+	\end{itemize}
+
+%-------------------------------- PROJECTS -------------------------
+\end{itemize}
+
+\resheading{Projects}
+
+\begin{description}
+\item[2007--2008] One of four upstream maintainers of the SELinux tool chain.
+\item[2001--Present] Major contributor to ISC cron (formerly Vixie cron).
+
+\end{description}
+
+%-------------------------------- SKILLS -------------------------
+
+\resheading{Skills}
+
+\begin{description}
+\item[Languages:]
+C/C{}\verb!++!, C{}\verb!#!, Perl, Java, Unix Shell, Sed, Awk
+\item[Operating Systems:]
+Linux, OpenBSD, FreeBSD, Mac OS X, {\sc UNIX}
+\item[Security:]
+Extensive experience writing secure code and auditing code for security-related errors
+\item[Miscellaneous:]
+Excellent troubleshooting and debugging skills
+\end{description}
+
+%-------------------------------- HONORS & AWARDS -------------------------
+\resheading{Honors \& Awards}
+
+\end{document}
