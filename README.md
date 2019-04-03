@@ -1,4 +1,4 @@
-# LaTeX_Resume
+# LaTeX_Resume :pushpin:
 A Resume made with LaTeX, feel free to edit and use.
 
 ## Compiling to PDF
