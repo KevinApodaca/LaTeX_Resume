@@ -1,5 +1,5 @@
 # LaTeX_Resume :pushpin:
-A Resume made with LaTeX, feel free to edit and use.
+A Resume made with LaTeX, feel free to edit and use as you please.
 
 ## Compiling to PDF
 I found that the following sequence of steps works for getting the PDF:
